@@ -24,12 +24,12 @@ module.exports = {
     },
     networks: {
         mainnet: {
-            host: "mainnet.infura.io/***",
+            host: "",
             port: 8545,
             network_id: '1'
         },
         ropsten: {
-            host: "ropsten.infura.io/***",
+            host: "",
             port: 8545,
             network_id: '3',
         },
@@ -38,7 +38,7 @@ module.exports = {
             port: 9545,
             network_id: '*',
             from: "0x627306090abab3a6e1400e9345bc60c78a8bef57",
-            gas: 4712388,
+            gas: 6712388,
             gasPrice: 100000000000
         },
         dev: {
@@ -46,7 +46,7 @@ module.exports = {
             port: 9545,
             network_id: '*',
             from: "0x627306090abab3a6e1400e9345bc60c78a8bef57",
-            gas: 4712388,
+            gas: 6712388,
             gasPrice: 100000000000
         }
     }

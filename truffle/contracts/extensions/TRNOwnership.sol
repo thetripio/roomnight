@@ -144,6 +144,31 @@ contract TRNOwnership is TRNOwners, ERC721 {
     }
 
     /**
+     * @dev Transfers the ownership of TRNs from one address to another address.
+     *      Throws unless `msg.sender` is the current owner or an approved address for this TRN.
+     *      Throws if `_tokenIds` are not valid TRNs.
+     * @param _from The current owner of the TRN
+     * @param _to The new owner
+     * @param _tokenIds The TRNs to transfer
+     */
+    function transferFromInBatch(address _from, address _to, uint256[] _tokenIds) 
+        external
+        payable
+        validTokenInBatch(_tokenIds)
+        canTransferInBatch(_tokenIds) {
+        for(uint256 i = 0; i < _tokenIds.length; i++) {
+            // The token's owner is equal to `_from`
+            address owner = dataSource.roomNightIndexToOwner(_tokenIds[i]);
+            require(owner == _from);
+
+            // Avoid `_to` is equal to address(0)
+            require(_to != address(0));
+
+            _transfer(_tokenIds[i], _to);
+        }
+    }
+
+    /**
      * @dev Set or reaffirm the approved address for an TRN.
      *      Throws unless `msg.sender` is the current TRN owner, or an authorized
      * @param _approved The new approved TRN controller

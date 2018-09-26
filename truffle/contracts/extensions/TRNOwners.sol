@@ -56,7 +56,8 @@ contract TRNOwners is TRNData {
     function roomNight(uint256 _rnid) 
         external 
         view 
-        returns(uint256 _vendorId,uint256 _rpid,uint256 _token,uint256 _price,uint256 _timestamp,uint256 _date,bytes32 _ipfs) {
+        returns(uint256 _vendorId,uint256 _rpid,uint256 _token,uint256 _price,uint256 _timestamp,uint256 _date,bytes32 _ipfs, string _name) {
         (_vendorId, _rpid, _token, _price, _timestamp, _date, _ipfs) = dataSource.roomnights(_rnid);
+        (_name,,) = dataSource.getRatePlan(_vendorId, _rpid);
     }
 }
