@@ -1,2 +1,13 @@
 # roomnight
 Room Night tokenization
+间夜数字化
+间夜数字化是借助以太坊ERC721协议实现的酒店间夜上链并数字化为可交易的Token的系统。商家可以借助该系统完成酒店RP(RatePlan)的上链并在链上完成库存和价格的管理，用户可以购买商家的间夜产生数字化的间夜Token，该Token在交易完成后产生并流转入用户账户。生成的Token可以在用户之间任意流转。持有间夜Token的用户可以在对应的酒店处完成Token的消费（入住），也可以与酒店协商之后销毁Token并退回购买资金。
+
+# Ropsten Release
+
+TRIO: [0xF142f1c7BaDc95FB438302D7Cf0a5Db426f8f779](https://ropsten.etherscan.io/address/0xf142f1c7badc95fb438302d7cf0a5db426f8f779)
+LinkedListLib:  [0x20733AB0E0E100D3047Bd9C983f520d3Ee7dD2BF](https://ropsten.etherscan.io/address/0x20733ab0e0e100d3047bd9c983f520d3ee7dd2bf)
+TripioRoomNightData:[0x829bCf8c990bD4c0de2A32A3A21068E0D154705D](https://ropsten.etherscan.io/address/0x829bCf8c990bD4c0de2A32A3A21068E0D154705D)
+TripioRoomNightAdmin: [0x4062a6E1281eB26C56E21E3e73CB55a325397b29](https://ropsten.etherscan.io/address/0x4062a6E1281eB26C56E21E3e73CB55a325397b29)
+TripioRoomNightCustomer: [0xcBf788b40d94CBa28052e870298334dCA837143a](https://ropsten.etherscan.io/address/0xcBf788b40d94CBa28052e870298334dCA837143a)
+TripioRoomNightVendor: [0x6A9C0fDAa9361b44eeE09ad0d0304ec941173361](https://ropsten.etherscan.io/address/0x6A9C0fDAa9361b44eeE09ad0d0304ec941173361)
