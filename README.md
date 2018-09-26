@@ -23,3 +23,6 @@
 * Telegram: [https://t.me/kinhang](https://t.me/kinhang)
 * Twitter: [Tripio@thetripio](Tripio@thetripio)
 * Mail: [hi@trip.io](hi@trip.io)
+
+# 间夜签名&验证流程
+![间夜签名&验证流程](https://github.com/thetripio/roomnight/blob/master/design/%E9%97%B4%E5%A4%9CToken%E7%AD%BE%E5%90%8D%26%E9%AA%8C%E7%AD%BE.png)
