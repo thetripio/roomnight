@@ -1,6 +1,5 @@
-# roomnight
-Room Night tokenization
-间夜数字化
+# Room Night tokenization
+## 间夜数字化
 间夜数字化是借助以太坊ERC721协议实现的酒店间夜上链并数字化为可交易的Token的系统。商家可以借助该系统完成酒店RP(RatePlan)的上链并在链上完成库存和价格的管理，用户可以购买商家的间夜产生数字化的间夜Token，该Token在交易完成后产生并流转入用户账户。生成的Token可以在用户之间任意流转。持有间夜Token的用户可以在对应的酒店处完成Token的消费（入住），也可以与酒店协商之后销毁Token并退回购买资金。
 
 # Ropsten Release
@@ -20,3 +19,7 @@ Room Night tokenization
 * TripioRoomNightAdmin:[0x09FD12C95F8b4738609cF38D58DDaD0Abb792cd3](https://etherscan.io/address/0x09FD12C95F8b4738609cF38D58DDaD0Abb792cd3)
 * TripioRoomNightCustomer:[0xd8114e9c66035b9CeE9BB7374f39AD6751811761](https://etherscan.io/address/0xd8114e9c66035b9CeE9BB7374f39AD6751811761)
 * TripioRoomNightVendor:[0xe79c61B12279D65413Ff6C670D5d7aaC689158f6](https://etherscan.io/address/0xe79c61B12279D65413Ff6C670D5d7aaC689158f6)
+
+Telegram: [https://t.me/kinhang](https://t.me/kinhang)
+Twitter: [Tripio@thetripio](Tripio@thetripio)
+Mail: [hi@trip.io](hi@trip.io)
