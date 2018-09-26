@@ -1,5 +1,4 @@
-# Room Night tokenization
-## 间夜数字化
+# Room Night Tokenization 间夜数字化
 间夜数字化是借助以太坊ERC721协议实现的酒店间夜上链并数字化为可交易的Token的系统。商家可以借助该系统完成酒店RP(RatePlan)的上链并在链上完成库存和价格的管理，用户可以购买商家的间夜产生数字化的间夜Token，该Token在交易完成后产生并流转入用户账户。生成的Token可以在用户之间任意流转。持有间夜Token的用户可以在对应的酒店处完成Token的消费（入住），也可以与酒店协商之后销毁Token并退回购买资金。
 
 # Ropsten Release
