@@ -19,11 +19,6 @@
 * TripioRoomNightCustomer:[0xd8114e9c66035b9CeE9BB7374f39AD6751811761](https://etherscan.io/address/0xd8114e9c66035b9CeE9BB7374f39AD6751811761)
 * TripioRoomNightVendor:[0xe79c61B12279D65413Ff6C670D5d7aaC689158f6](https://etherscan.io/address/0xe79c61B12279D65413Ff6C670D5d7aaC689158f6)
 
-# Contact
-* Telegram: [https://t.me/kinhang](https://t.me/kinhang)
-* Twitter: [Tripio@thetripio](Tripio@thetripio)
-* Mail: [hi@trip.io](hi@trip.io)
-
 # 间夜Token化流程概览
 ![间夜Token化流程概览](https://github.com/thetripio/roomnight/blob/master/design/%E9%97%B4%E5%A4%9CToken%E5%8C%96%E6%B5%81%E7%A8%8B.png)
 
@@ -36,3 +31,11 @@
 * 2、由于间夜本身具备自然失效的特性，因此我们可以通过简单的验证的方式来完成间夜的使用，只要验证间夜持有人拥有该间夜的对应地址的私钥就可以，流程参加下图
 ![间夜签名&验证流程](https://github.com/thetripio/roomnight/blob/master/design/%E9%97%B4%E5%A4%9CToken%E7%AD%BE%E5%90%8D%26%E9%AA%8C%E7%AD%BE.png)
 
+# 联系方式
+* Website：http://trip.io/zh/
+* Telegram：https://t.me/thetripio
+* Twitter：https://twitter.com/thetripio
+* Whitepaper：http://trip.io/wp/Tripio_Whitepaper_CN.pdf
+* Wechat：扫码添加微信小助手，进入Tripio官方微信群，消息早知道
+* Kakao:  https://open.kakao.com/o/gLHXN9Y
+* Facebook: https://www.facebook.com/profile.php?id=100028583748545
