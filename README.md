@@ -32,7 +32,7 @@
 ![间夜签名&验证流程](https://github.com/thetripio/roomnight/blob/master/design/%E9%97%B4%E5%A4%9CToken%E7%AD%BE%E5%90%8D%26%E9%AA%8C%E7%AD%BE.png)
 
 # 联系方式
-* Website：http://trip.io/zh/
+* Website：http://trip.io/
 * Telegram：https://t.me/thetripio
 * Twitter：https://twitter.com/thetripio
 * Whitepaper：http://trip.io/wp/Tripio_Whitepaper_CN.pdf
