@@ -24,4 +24,5 @@ The owner of the token sign the token with private key and show it to the vendor
 * If the public key begin with hex(0x04), remove the first byte hex(0x04).
 * Hash the public key by [keccak256](https://en.wikipedia.org/wiki/SHA-3) and get the last 20 bytes as the owner address of tokens.
 * Compare decoded owner of tokens with the owner got from the blockchain. 
+
 ![](https://metaimg.baichanghui.com/METADATA/feb2439f-2582-41f0-8c0d-369051579762)
