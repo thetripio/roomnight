@@ -683,7 +683,9 @@ contract TripioRoomNightData is Owned {
             require(_inventory <= a);
             vendors[_vendorId].ratePlans[_rpid].prices[_date].inventory = a - _inventory;
         }else if(vendors[_vendorId].ratePlans[_rpid].basePrice.init){
-            vendors[_vendorId].ratePlans[_rpid].prices[_date] = Price(0, true);
+            a = vendors[_vendorId].ratePlans[_rpid].basePrice.inventory;
+            require(_inventory <= a);
+            vendors[_vendorId].ratePlans[_rpid].prices[_date] = Price(a - _inventory, true);
         }
     }
 

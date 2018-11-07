@@ -16,6 +16,14 @@ contract TripioRoomNightAdmin is TRNVendors, TRNTokens {
         dataSource = TripioRoomNightData(_dataSource);
     }
 
+    /**
+     * @dev Update the data source
+     */
+    function updateDataSource(address _dataSource) external onlyOwner {
+        // Update the data source
+        dataSource = TripioRoomNightData(_dataSource);
+    }
+
      /**
      * @dev Update the base URI of token asset
      * @param _uri The base uri of token asset

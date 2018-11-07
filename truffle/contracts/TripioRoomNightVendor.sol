@@ -11,6 +11,14 @@ contract TripioRoomNightVendor is TRNPrices, TRNRatePlans {
         // Init the data source
         dataSource = TripioRoomNightData(_dataSource);
     }
+
+    /**
+     * @dev Update the data source
+     */
+    function updateDataSource(address _dataSource) external onlyOwner {
+        // Update the data source
+        dataSource = TripioRoomNightData(_dataSource);
+    }
     
     /**
      * @dev Destory the contract

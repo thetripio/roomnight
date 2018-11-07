@@ -15,6 +15,14 @@ contract TripioRoomNightCustomer is TRNAsset, TRNSupportsInterface, TRNOwnership
     }
 
     /**
+     * @dev Update the data source
+     */
+    function updateDataSource(address _dataSource) external onlyOwner {
+        // Update the data source
+        dataSource = TripioRoomNightData(_dataSource);
+    }
+
+    /**
      * @dev Withdraw ETH balance from contract account, the balance will transfer to the contract owner
      */
     function withdrawBalance() external onlyOwner {
