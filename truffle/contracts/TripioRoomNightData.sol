@@ -318,6 +318,9 @@ contract TripioRoomNightData is Owned {
             _price = vendors[_vendorId].ratePlans[_rpid].basePrice.tokens[_tokenId];
             _init = vendors[_vendorId].ratePlans[_rpid].basePrice.init;
         }
+        if(_price == 0) {
+            _price = vendors[_vendorId].ratePlans[_rpid].basePrice.tokens[_tokenId];
+        }
     }
 
     /**
@@ -345,6 +348,9 @@ contract TripioRoomNightData is Owned {
                 inventory = vendors[_vendorId].ratePlans[_rpid].basePrice.inventory;
                 price = vendors[_vendorId].ratePlans[_rpid].basePrice.tokens[_tokenId];
                 init = vendors[_vendorId].ratePlans[_rpid].basePrice.init;
+            }
+            if(price == 0) {
+                price = vendors[_vendorId].ratePlans[_rpid].basePrice.tokens[_tokenId];
             }
             inventories[i] = inventory;
             prices[i] = price;
@@ -677,9 +683,7 @@ contract TripioRoomNightData is Owned {
             require(_inventory <= a);
             vendors[_vendorId].ratePlans[_rpid].prices[_date].inventory = a - _inventory;
         }else if(vendors[_vendorId].ratePlans[_rpid].basePrice.init){
-            a = vendors[_vendorId].ratePlans[_rpid].basePrice.inventory;
-            require(_inventory <= a);
-            vendors[_vendorId].ratePlans[_rpid].basePrice.inventory = a - _inventory;
+            vendors[_vendorId].ratePlans[_rpid].prices[_date] = Price(0, true);
         }
     }
 
@@ -698,10 +702,6 @@ contract TripioRoomNightData is Owned {
             c = _inventory + vendors[_vendorId].ratePlans[_rpid].prices[_date].inventory;
             require(c >= _inventory);
             vendors[_vendorId].ratePlans[_rpid].prices[_date].inventory = c;
-        }else if(vendors[_vendorId].ratePlans[_rpid].basePrice.init) {
-            c = _inventory + vendors[_vendorId].ratePlans[_rpid].basePrice.inventory;
-            require(c >= _inventory);
-            vendors[_vendorId].ratePlans[_rpid].basePrice.inventory = c;
         }
     }
 

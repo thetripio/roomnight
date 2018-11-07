@@ -15,9 +15,9 @@
 * [TripioRoomNightCustomer](TripioRoomNightCustomer.md)
 
 ## Contact information
-* Website：http://trip.io/
-* Telegram：https://t.me/thetripio
-* Twitter：https://twitter.com/thetripio
-* Whitepaper：http://d.trip.io/wp/Tripio_Whitepaper_EN.pdf
-* Kakao:  https://open.kakao.com/o/gLHXN9Y
-* Facebook: https://www.facebook.com/profile.php?id=100028583748545
+* [Website](http://trip.io/)
+* [Telegram](https://t.me/thetripio)
+* [Twitter](https://twitter.com/thetripio)
+* [Whitepaper](http://d.trip.io/wp/Tripio_Whitepaper_EN.pdf)
+* [Kakao](https://open.kakao.com/o/gLHXN9Y)
+* [Facebook](https://www.facebook.com/profile.php?id=100028583748545)

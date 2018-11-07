@@ -95,24 +95,24 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b5060008054600160a060020a03191633179055610404806100326000396000f3006080604052600436106100535763ffffffff60e060020a60003504166301ffc9a7811461005857806379ba50971461008e5780638da5cb5b146100a5578063d4ee1d90146100d6578063f2fde38b146100eb575b600080fd5b34801561006457600080fd5b5061007a600160e060020a03196004351661010c565b604080519115158252519081900360200190f35b34801561009a57600080fd5b506100a36102ec565b005b3480156100b157600080fd5b506100ba610374565b60408051600160a060020a039092168252519081900360200190f35b3480156100e257600080fd5b506100ba610383565b3480156100f757600080fd5b506100a3600160a060020a0360043516610392565b600254604080517f5e0f9e060000000000000000000000000000000000000000000000000000000081529051600092600160a060020a031691635e0f9e0691600480830192602092919082900301818787803b15801561016b57600080fd5b505af115801561017f573d6000803e3d6000fd5b505050506040513d602081101561019557600080fd5b5051600160e060020a03198381169116148061023b5750600260009054906101000a9004600160a060020a0316600160a060020a031663c1752ef16040518163ffffffff1660e060020a028152600401602060405180830381600087803b1580156101ff57600080fd5b505af1158015610213573d6000803e3d6000fd5b505050506040513d602081101561022957600080fd5b5051600160e060020a03198381169116145b806102d05750600260009054906101000a9004600160a060020a0316600160a060020a0316633f2e681c6040518163ffffffff1660e060020a028152600401602060405180830381600087803b15801561029457600080fd5b505af11580156102a8573d6000803e3d6000fd5b505050506040513d60208110156102be57600080fd5b5051600160e060020a03198381169116145b80156102e65750600160e060020a031980831614155b92915050565b600154600160a060020a0316331461030357600080fd5b60015460008054604051600160a060020a0393841693909116917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600180546000805473ffffffffffffffffffffffffffffffffffffffff19908116600160a060020a03841617909155169055565b600054600160a060020a031681565b600154600160a060020a031681565b600054600160a060020a031633146103a957600080fd5b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a72305820ec9ff8b1a29bfc2fe7011761f30d2f1006e83aa85da22d85c19ea26afe78d5e30029",
-  "deployedBytecode": "0x6080604052600436106100535763ffffffff60e060020a60003504166301ffc9a7811461005857806379ba50971461008e5780638da5cb5b146100a5578063d4ee1d90146100d6578063f2fde38b146100eb575b600080fd5b34801561006457600080fd5b5061007a600160e060020a03196004351661010c565b604080519115158252519081900360200190f35b34801561009a57600080fd5b506100a36102ec565b005b3480156100b157600080fd5b506100ba610374565b60408051600160a060020a039092168252519081900360200190f35b3480156100e257600080fd5b506100ba610383565b3480156100f757600080fd5b506100a3600160a060020a0360043516610392565b600254604080517f5e0f9e060000000000000000000000000000000000000000000000000000000081529051600092600160a060020a031691635e0f9e0691600480830192602092919082900301818787803b15801561016b57600080fd5b505af115801561017f573d6000803e3d6000fd5b505050506040513d602081101561019557600080fd5b5051600160e060020a03198381169116148061023b5750600260009054906101000a9004600160a060020a0316600160a060020a031663c1752ef16040518163ffffffff1660e060020a028152600401602060405180830381600087803b1580156101ff57600080fd5b505af1158015610213573d6000803e3d6000fd5b505050506040513d602081101561022957600080fd5b5051600160e060020a03198381169116145b806102d05750600260009054906101000a9004600160a060020a0316600160a060020a0316633f2e681c6040518163ffffffff1660e060020a028152600401602060405180830381600087803b15801561029457600080fd5b505af11580156102a8573d6000803e3d6000fd5b505050506040513d60208110156102be57600080fd5b5051600160e060020a03198381169116145b80156102e65750600160e060020a031980831614155b92915050565b600154600160a060020a0316331461030357600080fd5b60015460008054604051600160a060020a0393841693909116917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600180546000805473ffffffffffffffffffffffffffffffffffffffff19908116600160a060020a03841617909155169055565b600054600160a060020a031681565b600154600160a060020a031681565b600054600160a060020a031633146103a957600080fd5b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a72305820ec9ff8b1a29bfc2fe7011761f30d2f1006e83aa85da22d85c19ea26afe78d5e30029",
+  "bytecode": "0x608060405234801561001057600080fd5b5060008054600160a060020a03191633179055610404806100326000396000f3006080604052600436106100535763ffffffff60e060020a60003504166301ffc9a7811461005857806379ba50971461008e5780638da5cb5b146100a5578063d4ee1d90146100d6578063f2fde38b146100eb575b600080fd5b34801561006457600080fd5b5061007a600160e060020a03196004351661010c565b604080519115158252519081900360200190f35b34801561009a57600080fd5b506100a36102ec565b005b3480156100b157600080fd5b506100ba610374565b60408051600160a060020a039092168252519081900360200190f35b3480156100e257600080fd5b506100ba610383565b3480156100f757600080fd5b506100a3600160a060020a0360043516610392565b600254604080517f5e0f9e060000000000000000000000000000000000000000000000000000000081529051600092600160a060020a031691635e0f9e0691600480830192602092919082900301818787803b15801561016b57600080fd5b505af115801561017f573d6000803e3d6000fd5b505050506040513d602081101561019557600080fd5b5051600160e060020a03198381169116148061023b5750600260009054906101000a9004600160a060020a0316600160a060020a031663c1752ef16040518163ffffffff1660e060020a028152600401602060405180830381600087803b1580156101ff57600080fd5b505af1158015610213573d6000803e3d6000fd5b505050506040513d602081101561022957600080fd5b5051600160e060020a03198381169116145b806102d05750600260009054906101000a9004600160a060020a0316600160a060020a0316633f2e681c6040518163ffffffff1660e060020a028152600401602060405180830381600087803b15801561029457600080fd5b505af11580156102a8573d6000803e3d6000fd5b505050506040513d60208110156102be57600080fd5b5051600160e060020a03198381169116145b80156102e65750600160e060020a031980831614155b92915050565b600154600160a060020a0316331461030357600080fd5b60015460008054604051600160a060020a0393841693909116917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600180546000805473ffffffffffffffffffffffffffffffffffffffff19908116600160a060020a03841617909155169055565b600054600160a060020a031681565b600154600160a060020a031681565b600054600160a060020a031633146103a957600080fd5b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a723058200513b1a86f96429800dde180e039c599b5dcd88761c18c92cb12da0afb07f61c0029",
+  "deployedBytecode": "0x6080604052600436106100535763ffffffff60e060020a60003504166301ffc9a7811461005857806379ba50971461008e5780638da5cb5b146100a5578063d4ee1d90146100d6578063f2fde38b146100eb575b600080fd5b34801561006457600080fd5b5061007a600160e060020a03196004351661010c565b604080519115158252519081900360200190f35b34801561009a57600080fd5b506100a36102ec565b005b3480156100b157600080fd5b506100ba610374565b60408051600160a060020a039092168252519081900360200190f35b3480156100e257600080fd5b506100ba610383565b3480156100f757600080fd5b506100a3600160a060020a0360043516610392565b600254604080517f5e0f9e060000000000000000000000000000000000000000000000000000000081529051600092600160a060020a031691635e0f9e0691600480830192602092919082900301818787803b15801561016b57600080fd5b505af115801561017f573d6000803e3d6000fd5b505050506040513d602081101561019557600080fd5b5051600160e060020a03198381169116148061023b5750600260009054906101000a9004600160a060020a0316600160a060020a031663c1752ef16040518163ffffffff1660e060020a028152600401602060405180830381600087803b1580156101ff57600080fd5b505af1158015610213573d6000803e3d6000fd5b505050506040513d602081101561022957600080fd5b5051600160e060020a03198381169116145b806102d05750600260009054906101000a9004600160a060020a0316600160a060020a0316633f2e681c6040518163ffffffff1660e060020a028152600401602060405180830381600087803b15801561029457600080fd5b505af11580156102a8573d6000803e3d6000fd5b505050506040513d60208110156102be57600080fd5b5051600160e060020a03198381169116145b80156102e65750600160e060020a031980831614155b92915050565b600154600160a060020a0316331461030357600080fd5b60015460008054604051600160a060020a0393841693909116917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600180546000805473ffffffffffffffffffffffffffffffffffffffff19908116600160a060020a03841617909155169055565b600054600160a060020a031681565b600154600160a060020a031681565b600054600160a060020a031633146103a957600080fd5b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a723058200513b1a86f96429800dde180e039c599b5dcd88761c18c92cb12da0afb07f61c0029",
   "sourceMap": "79:762:17:-;;;169:29;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;270:5:10;:18;;-1:-1:-1;;;;;;270:18:10;278:10;270:18;;;79:762:17;;;;;;",
   "deployedSourceMap": "79:762:17:-;;;;;;;;;-1:-1:-1;;;79:762:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;474:365;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;474:365:17;-1:-1:-1;;;;;;474:365:17;;;;;;;;;;;;;;;;;;;;;;;717:191:10;;8:9:-1;5:2;;;30:1;27;20:12;5:2;717:191:10;;;;;;73:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;73:20:10;;;;;;;;-1:-1:-1;;;;;73:20:10;;;;;;;;;;;;;;99:23;;8:9:-1;5:2;;;30:1;27;20:12;5:2;99:23:10;;;;544:100;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;544:100:10;-1:-1:-1;;;;;544:100:10;;;;;474:365:17;611:10;;:38;;;;;;;;571:4;;-1:-1:-1;;;;;611:10:17;;:36;;:38;;;;;;;;;;;;;;571:4;611:10;:38;;;5:2:-1;;;;30:1;27;20:12;5:2;611:38:17;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;611:38:17;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;611:38:17;-1:-1:-1;;;;;;596:53:17;;;;;;;595:130;;;678:10;;;;;;;;;-1:-1:-1;;;;;678:10:17;-1:-1:-1;;;;;678:44:17;;:46;;;;;-1:-1:-1;;;678:46:17;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;678:46:17;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;678:46:17;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;678:46:17;-1:-1:-1;;;;;;663:61:17;;;;;;595:130;:197;;;;753:10;;;;;;;;;-1:-1:-1;;;;;753:10:17;-1:-1:-1;;;;;753:36:17;;:38;;;;;-1:-1:-1;;;753:38:17;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;753:38:17;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;753:38:17;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;753:38:17;-1:-1:-1;;;;;;738:53:17;;;;;;595:197;594:238;;;;-1:-1:-1;;;;;;;806:25:17;;;;;594:238;587:245;474:365;-1:-1:-1;;474:365:17:o;717:191:10:-;783:8;;-1:-1:-1;;;;;783:8:10;769:10;:22;761:31;;;;;;835:8;;;828:5;;807:37;;-1:-1:-1;;;;;835:8:10;;;;828:5;;;;807:37;;;862:8;;;;854:16;;-1:-1:-1;;854:16:10;;;-1:-1:-1;;;;;862:8:10;;854:16;;;;880:21;;;717:191::o;73:20::-;;;-1:-1:-1;;;;;73:20:10;;:::o;99:23::-;;;-1:-1:-1;;;;;99:23:10;;:::o;544:100::-;408:5;;-1:-1:-1;;;;;408:5:10;394:10;:19;386:28;;;;;;617:8;:20;;-1:-1:-1;;617:20:10;-1:-1:-1;;;;;617:20:10;;;;;;;;;;544:100::o",
   "source": "pragma solidity ^0.4.24;\n\nimport \"../721/ERC165.sol\";\nimport \"./TRNData.sol\";\n\ncontract TRNSupportsInterface is TRNData, ERC165 {\n    /**\n     * Constructor\n     */\n    constructor() public {\n\n    }\n\n    /**\n     * @dev Query if a contract implements an interface\n     * @param interfaceID The interface identifier, as specified in ERC-165\n     * @return true if the contract implements `interfaceID` \n     * and `interfaceID` is not 0xffffffff, false otherwise\n     */\n    function supportsInterface(bytes4 interfaceID) \n        external \n        view \n        returns (bool) {\n        return ((interfaceID == dataSource.interfaceSignature_ERC165()) ||\n        (interfaceID == dataSource.interfaceSignature_ERC721Metadata()) ||\n        (interfaceID == dataSource.interfaceSignature_ERC721())) &&\n        (interfaceID != 0xffffffff);\n    }\n}",
-  "sourcePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/extensions/TRNSupportsInterface.sol",
+  "sourcePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/extensions/TRNSupportsInterface.sol",
   "ast": {
-    "absolutePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/extensions/TRNSupportsInterface.sol",
+    "absolutePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/extensions/TRNSupportsInterface.sol",
     "exportedSymbols": {
       "TRNSupportsInterface": [
-        5340
+        5647
       ]
     },
-    "id": 5341,
+    "id": 5648,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5294,
+        "id": 5601,
         "literals": [
           "solidity",
           "^",
@@ -123,23 +123,23 @@
         "src": "0:24:17"
       },
       {
-        "absolutePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/721/ERC165.sol",
+        "absolutePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/721/ERC165.sol",
         "file": "../721/ERC165.sol",
-        "id": 5295,
+        "id": 5602,
         "nodeType": "ImportDirective",
-        "scope": 5341,
+        "scope": 5648,
         "sourceUnit": 858,
         "src": "26:27:17",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/extensions/TRNData.sol",
+        "absolutePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/extensions/TRNData.sol",
         "file": "./TRNData.sol",
-        "id": 5296,
+        "id": 5603,
         "nodeType": "ImportDirective",
-        "scope": 5341,
-        "sourceUnit": 4028,
+        "scope": 5648,
+        "sourceUnit": 4191,
         "src": "54:23:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -150,17 +150,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 5297,
+              "id": 5604,
               "name": "TRNData",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4027,
+              "referencedDeclaration": 4190,
               "src": "112:7:17",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TRNData_$4027",
+                "typeIdentifier": "t_contract$_TRNData_$4190",
                 "typeString": "contract TRNData"
               }
             },
-            "id": 5298,
+            "id": 5605,
             "nodeType": "InheritanceSpecifier",
             "src": "112:7:17"
           },
@@ -168,7 +168,7 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 5299,
+              "id": 5606,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 857,
@@ -178,38 +178,38 @@
                 "typeString": "contract ERC165"
               }
             },
-            "id": 5300,
+            "id": 5607,
             "nodeType": "InheritanceSpecifier",
             "src": "121:6:17"
           }
         ],
         "contractDependencies": [
           857,
-          3492,
-          4027
+          3569,
+          4190
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 5340,
+        "id": 5647,
         "linearizedBaseContracts": [
-          5340,
+          5647,
           857,
-          4027,
-          3492
+          4190,
+          3569
         ],
         "name": "TRNSupportsInterface",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 5303,
+              "id": 5610,
               "nodeType": "Block",
               "src": "190:8:17",
               "statements": []
             },
             "documentation": "Constructor",
-            "id": 5304,
+            "id": 5611,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -217,19 +217,19 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5301,
+              "id": 5608,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "180:2:17"
             },
             "payable": false,
             "returnParameters": {
-              "id": 5302,
+              "id": 5609,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "190:0:17"
             },
-            "scope": 5340,
+            "scope": 5647,
             "src": "169:29:17",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -237,7 +237,7 @@
           },
           {
             "body": {
-              "id": 5338,
+              "id": 5645,
               "nodeType": "Block",
               "src": "577:262:17",
               "statements": [
@@ -248,7 +248,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 5336,
+                    "id": 5643,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -262,7 +262,7 @@
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           },
-                          "id": 5330,
+                          "id": 5637,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -273,7 +273,7 @@
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
                             },
-                            "id": 5323,
+                            "id": 5630,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -287,18 +287,18 @@
                                     "typeIdentifier": "t_bytes4",
                                     "typeString": "bytes4"
                                   },
-                                  "id": 5315,
+                                  "id": 5622,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftExpression": {
                                     "argumentTypes": null,
-                                    "id": 5311,
+                                    "id": 5618,
                                     "name": "interfaceID",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 5306,
+                                    "referencedDeclaration": 5613,
                                     "src": "596:11:17",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_bytes4",
@@ -314,18 +314,18 @@
                                       "argumentTypes": [],
                                       "expression": {
                                         "argumentTypes": null,
-                                        "id": 5312,
+                                        "id": 5619,
                                         "name": "dataSource",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 3602,
+                                        "referencedDeclaration": 3679,
                                         "src": "611:10:17",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3390",
+                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3467",
                                           "typeString": "contract TripioRoomNightData"
                                         }
                                       },
-                                      "id": 5313,
+                                      "id": 5620,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -339,7 +339,7 @@
                                         "typeString": "function () view external returns (bytes4)"
                                       }
                                     },
-                                    "id": 5314,
+                                    "id": 5621,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -360,7 +360,7 @@
                                   }
                                 }
                               ],
-                              "id": 5316,
+                              "id": 5623,
                               "isConstant": false,
                               "isInlineArray": false,
                               "isLValue": false,
@@ -384,18 +384,18 @@
                                     "typeIdentifier": "t_bytes4",
                                     "typeString": "bytes4"
                                   },
-                                  "id": 5321,
+                                  "id": 5628,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftExpression": {
                                     "argumentTypes": null,
-                                    "id": 5317,
+                                    "id": 5624,
                                     "name": "interfaceID",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 5306,
+                                    "referencedDeclaration": 5613,
                                     "src": "663:11:17",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_bytes4",
@@ -411,18 +411,18 @@
                                       "argumentTypes": [],
                                       "expression": {
                                         "argumentTypes": null,
-                                        "id": 5318,
+                                        "id": 5625,
                                         "name": "dataSource",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 3602,
+                                        "referencedDeclaration": 3679,
                                         "src": "678:10:17",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3390",
+                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3467",
                                           "typeString": "contract TripioRoomNightData"
                                         }
                                       },
-                                      "id": 5319,
+                                      "id": 5626,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -436,7 +436,7 @@
                                         "typeString": "function () view external returns (bytes4)"
                                       }
                                     },
-                                    "id": 5320,
+                                    "id": 5627,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -457,7 +457,7 @@
                                   }
                                 }
                               ],
-                              "id": 5322,
+                              "id": 5629,
                               "isConstant": false,
                               "isInlineArray": false,
                               "isLValue": false,
@@ -487,18 +487,18 @@
                                   "typeIdentifier": "t_bytes4",
                                   "typeString": "bytes4"
                                 },
-                                "id": 5328,
+                                "id": 5635,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftExpression": {
                                   "argumentTypes": null,
-                                  "id": 5324,
+                                  "id": 5631,
                                   "name": "interfaceID",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 5306,
+                                  "referencedDeclaration": 5613,
                                   "src": "738:11:17",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_bytes4",
@@ -514,18 +514,18 @@
                                     "argumentTypes": [],
                                     "expression": {
                                       "argumentTypes": null,
-                                      "id": 5325,
+                                      "id": 5632,
                                       "name": "dataSource",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 3602,
+                                      "referencedDeclaration": 3679,
                                       "src": "753:10:17",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_contract$_TripioRoomNightData_$3390",
+                                        "typeIdentifier": "t_contract$_TripioRoomNightData_$3467",
                                         "typeString": "contract TripioRoomNightData"
                                       }
                                     },
-                                    "id": 5326,
+                                    "id": 5633,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -539,7 +539,7 @@
                                       "typeString": "function () view external returns (bytes4)"
                                     }
                                   },
-                                  "id": 5327,
+                                  "id": 5634,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
@@ -560,7 +560,7 @@
                                 }
                               }
                             ],
-                            "id": 5329,
+                            "id": 5636,
                             "isConstant": false,
                             "isInlineArray": false,
                             "isLValue": false,
@@ -580,7 +580,7 @@
                           }
                         }
                       ],
-                      "id": 5331,
+                      "id": 5638,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
@@ -604,18 +604,18 @@
                             "typeIdentifier": "t_bytes4",
                             "typeString": "bytes4"
                           },
-                          "id": 5334,
+                          "id": 5641,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "argumentTypes": null,
-                            "id": 5332,
+                            "id": 5639,
                             "name": "interfaceID",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5306,
+                            "referencedDeclaration": 5613,
                             "src": "806:11:17",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes4",
@@ -627,7 +627,7 @@
                           "rightExpression": {
                             "argumentTypes": null,
                             "hexValue": "30786666666666666666",
-                            "id": 5333,
+                            "id": 5640,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -649,7 +649,7 @@
                           }
                         }
                       ],
-                      "id": 5335,
+                      "id": 5642,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
@@ -668,15 +668,15 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 5310,
-                  "id": 5337,
+                  "functionReturnParameters": 5617,
+                  "id": 5644,
                   "nodeType": "Return",
                   "src": "587:245:17"
                 }
               ]
             },
             "documentation": "@dev Query if a contract implements an interface\n@param interfaceID The interface identifier, as specified in ERC-165\n@return true if the contract implements `interfaceID` \nand `interfaceID` is not 0xffffffff, false otherwise",
-            "id": 5339,
+            "id": 5646,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -684,15 +684,15 @@
             "name": "supportsInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5307,
+              "id": 5614,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5306,
+                  "id": 5613,
                   "name": "interfaceID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5339,
+                  "scope": 5646,
                   "src": "501:18:17",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -701,7 +701,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 5305,
+                    "id": 5612,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "501:6:17",
@@ -718,15 +718,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5310,
+              "id": 5617,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5309,
+                  "id": 5616,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5339,
+                  "scope": 5646,
                   "src": "571:4:17",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -735,7 +735,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 5308,
+                    "id": 5615,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "571:4:17",
@@ -750,31 +750,31 @@
               ],
               "src": "570:6:17"
             },
-            "scope": 5340,
+            "scope": 5647,
             "src": "474:365:17",
             "stateMutability": "view",
             "superFunction": 856,
             "visibility": "external"
           }
         ],
-        "scope": 5341,
+        "scope": 5648,
         "src": "79:762:17"
       }
     ],
     "src": "0:841:17"
   },
   "legacyAST": {
-    "absolutePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/extensions/TRNSupportsInterface.sol",
+    "absolutePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/extensions/TRNSupportsInterface.sol",
     "exportedSymbols": {
       "TRNSupportsInterface": [
-        5340
+        5647
       ]
     },
-    "id": 5341,
+    "id": 5648,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5294,
+        "id": 5601,
         "literals": [
           "solidity",
           "^",
@@ -785,23 +785,23 @@
         "src": "0:24:17"
       },
       {
-        "absolutePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/721/ERC165.sol",
+        "absolutePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/721/ERC165.sol",
         "file": "../721/ERC165.sol",
-        "id": 5295,
+        "id": 5602,
         "nodeType": "ImportDirective",
-        "scope": 5341,
+        "scope": 5648,
         "sourceUnit": 858,
         "src": "26:27:17",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/Kirn/Documents/Workspace/Dawn/tripio-roomnight/truffle/contracts/extensions/TRNData.sol",
+        "absolutePath": "/Users/Kirn/Documents/Workspace/Trip.io/roomnight/truffle/contracts/extensions/TRNData.sol",
         "file": "./TRNData.sol",
-        "id": 5296,
+        "id": 5603,
         "nodeType": "ImportDirective",
-        "scope": 5341,
-        "sourceUnit": 4028,
+        "scope": 5648,
+        "sourceUnit": 4191,
         "src": "54:23:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -812,17 +812,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 5297,
+              "id": 5604,
               "name": "TRNData",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4027,
+              "referencedDeclaration": 4190,
               "src": "112:7:17",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TRNData_$4027",
+                "typeIdentifier": "t_contract$_TRNData_$4190",
                 "typeString": "contract TRNData"
               }
             },
-            "id": 5298,
+            "id": 5605,
             "nodeType": "InheritanceSpecifier",
             "src": "112:7:17"
           },
@@ -830,7 +830,7 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 5299,
+              "id": 5606,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 857,
@@ -840,38 +840,38 @@
                 "typeString": "contract ERC165"
               }
             },
-            "id": 5300,
+            "id": 5607,
             "nodeType": "InheritanceSpecifier",
             "src": "121:6:17"
           }
         ],
         "contractDependencies": [
           857,
-          3492,
-          4027
+          3569,
+          4190
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 5340,
+        "id": 5647,
         "linearizedBaseContracts": [
-          5340,
+          5647,
           857,
-          4027,
-          3492
+          4190,
+          3569
         ],
         "name": "TRNSupportsInterface",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 5303,
+              "id": 5610,
               "nodeType": "Block",
               "src": "190:8:17",
               "statements": []
             },
             "documentation": "Constructor",
-            "id": 5304,
+            "id": 5611,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -879,19 +879,19 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5301,
+              "id": 5608,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "180:2:17"
             },
             "payable": false,
             "returnParameters": {
-              "id": 5302,
+              "id": 5609,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "190:0:17"
             },
-            "scope": 5340,
+            "scope": 5647,
             "src": "169:29:17",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -899,7 +899,7 @@
           },
           {
             "body": {
-              "id": 5338,
+              "id": 5645,
               "nodeType": "Block",
               "src": "577:262:17",
               "statements": [
@@ -910,7 +910,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 5336,
+                    "id": 5643,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -924,7 +924,7 @@
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           },
-                          "id": 5330,
+                          "id": 5637,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -935,7 +935,7 @@
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
                             },
-                            "id": 5323,
+                            "id": 5630,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -949,18 +949,18 @@
                                     "typeIdentifier": "t_bytes4",
                                     "typeString": "bytes4"
                                   },
-                                  "id": 5315,
+                                  "id": 5622,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftExpression": {
                                     "argumentTypes": null,
-                                    "id": 5311,
+                                    "id": 5618,
                                     "name": "interfaceID",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 5306,
+                                    "referencedDeclaration": 5613,
                                     "src": "596:11:17",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_bytes4",
@@ -976,18 +976,18 @@
                                       "argumentTypes": [],
                                       "expression": {
                                         "argumentTypes": null,
-                                        "id": 5312,
+                                        "id": 5619,
                                         "name": "dataSource",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 3602,
+                                        "referencedDeclaration": 3679,
                                         "src": "611:10:17",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3390",
+                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3467",
                                           "typeString": "contract TripioRoomNightData"
                                         }
                                       },
-                                      "id": 5313,
+                                      "id": 5620,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -1001,7 +1001,7 @@
                                         "typeString": "function () view external returns (bytes4)"
                                       }
                                     },
-                                    "id": 5314,
+                                    "id": 5621,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -1022,7 +1022,7 @@
                                   }
                                 }
                               ],
-                              "id": 5316,
+                              "id": 5623,
                               "isConstant": false,
                               "isInlineArray": false,
                               "isLValue": false,
@@ -1046,18 +1046,18 @@
                                     "typeIdentifier": "t_bytes4",
                                     "typeString": "bytes4"
                                   },
-                                  "id": 5321,
+                                  "id": 5628,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftExpression": {
                                     "argumentTypes": null,
-                                    "id": 5317,
+                                    "id": 5624,
                                     "name": "interfaceID",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 5306,
+                                    "referencedDeclaration": 5613,
                                     "src": "663:11:17",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_bytes4",
@@ -1073,18 +1073,18 @@
                                       "argumentTypes": [],
                                       "expression": {
                                         "argumentTypes": null,
-                                        "id": 5318,
+                                        "id": 5625,
                                         "name": "dataSource",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 3602,
+                                        "referencedDeclaration": 3679,
                                         "src": "678:10:17",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3390",
+                                          "typeIdentifier": "t_contract$_TripioRoomNightData_$3467",
                                           "typeString": "contract TripioRoomNightData"
                                         }
                                       },
-                                      "id": 5319,
+                                      "id": 5626,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -1098,7 +1098,7 @@
                                         "typeString": "function () view external returns (bytes4)"
                                       }
                                     },
-                                    "id": 5320,
+                                    "id": 5627,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -1119,7 +1119,7 @@
                                   }
                                 }
                               ],
-                              "id": 5322,
+                              "id": 5629,
                               "isConstant": false,
                               "isInlineArray": false,
                               "isLValue": false,
@@ -1149,18 +1149,18 @@
                                   "typeIdentifier": "t_bytes4",
                                   "typeString": "bytes4"
                                 },
-                                "id": 5328,
+                                "id": 5635,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftExpression": {
                                   "argumentTypes": null,
-                                  "id": 5324,
+                                  "id": 5631,
                                   "name": "interfaceID",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 5306,
+                                  "referencedDeclaration": 5613,
                                   "src": "738:11:17",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_bytes4",
@@ -1176,18 +1176,18 @@
                                     "argumentTypes": [],
                                     "expression": {
                                       "argumentTypes": null,
-                                      "id": 5325,
+                                      "id": 5632,
                                       "name": "dataSource",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 3602,
+                                      "referencedDeclaration": 3679,
                                       "src": "753:10:17",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_contract$_TripioRoomNightData_$3390",
+                                        "typeIdentifier": "t_contract$_TripioRoomNightData_$3467",
                                         "typeString": "contract TripioRoomNightData"
                                       }
                                     },
-                                    "id": 5326,
+                                    "id": 5633,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -1201,7 +1201,7 @@
                                       "typeString": "function () view external returns (bytes4)"
                                     }
                                   },
-                                  "id": 5327,
+                                  "id": 5634,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
@@ -1222,7 +1222,7 @@
                                 }
                               }
                             ],
-                            "id": 5329,
+                            "id": 5636,
                             "isConstant": false,
                             "isInlineArray": false,
                             "isLValue": false,
@@ -1242,7 +1242,7 @@
                           }
                         }
                       ],
-                      "id": 5331,
+                      "id": 5638,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
@@ -1266,18 +1266,18 @@
                             "typeIdentifier": "t_bytes4",
                             "typeString": "bytes4"
                           },
-                          "id": 5334,
+                          "id": 5641,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "argumentTypes": null,
-                            "id": 5332,
+                            "id": 5639,
                             "name": "interfaceID",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5306,
+                            "referencedDeclaration": 5613,
                             "src": "806:11:17",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes4",
@@ -1289,7 +1289,7 @@
                           "rightExpression": {
                             "argumentTypes": null,
                             "hexValue": "30786666666666666666",
-                            "id": 5333,
+                            "id": 5640,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -1311,7 +1311,7 @@
                           }
                         }
                       ],
-                      "id": 5335,
+                      "id": 5642,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
@@ -1330,15 +1330,15 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 5310,
-                  "id": 5337,
+                  "functionReturnParameters": 5617,
+                  "id": 5644,
                   "nodeType": "Return",
                   "src": "587:245:17"
                 }
               ]
             },
             "documentation": "@dev Query if a contract implements an interface\n@param interfaceID The interface identifier, as specified in ERC-165\n@return true if the contract implements `interfaceID` \nand `interfaceID` is not 0xffffffff, false otherwise",
-            "id": 5339,
+            "id": 5646,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1346,15 +1346,15 @@
             "name": "supportsInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5307,
+              "id": 5614,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5306,
+                  "id": 5613,
                   "name": "interfaceID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5339,
+                  "scope": 5646,
                   "src": "501:18:17",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1363,7 +1363,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 5305,
+                    "id": 5612,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "501:6:17",
@@ -1380,15 +1380,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5310,
+              "id": 5617,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5309,
+                  "id": 5616,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5339,
+                  "scope": 5646,
                   "src": "571:4:17",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1397,7 +1397,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 5308,
+                    "id": 5615,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "571:4:17",
@@ -1412,14 +1412,14 @@
               ],
               "src": "570:6:17"
             },
-            "scope": 5340,
+            "scope": 5647,
             "src": "474:365:17",
             "stateMutability": "view",
             "superFunction": 856,
             "visibility": "external"
           }
         ],
-        "scope": 5341,
+        "scope": 5648,
         "src": "79:762:17"
       }
     ],
@@ -1431,5 +1431,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-08-31T07:11:19.144Z"
+  "updatedAt": "2018-11-07T07:56:22.619Z"
 }
