@@ -1,6 +1,6 @@
 # Contract
-* Ropsten：[0x1E212155EF1197cC42B8A8D5dDffF6Dc4C584CE7](https://ropsten.etherscan.io/address/0x1E212155EF1197cC42B8A8D5dDffF6Dc4C584CE7)
-* Main：[0x09FD12C95F8b4738609cF38D58DDaD0Abb792cd3](https://ropsten.etherscan.io/address/0x09FD12C95F8b4738609cF38D58DDaD0Abb792cd3)
+* Ropsten：[0x0D53Ca8D45072c29fA45A3854685ff80ce95E8b2](https://ropsten.etherscan.io/address/0x0D53Ca8D45072c29fA45A3854685ff80ce95E8b2)
+* Main：[0x45A4C11105F6d0Ba19A8e848450A9fA3642c4fBa](https://ropsten.etherscan.io/address/0x45A4C11105F6d0Ba19A8e848450A9fA3642c4fBa)
 
 # Query
 ## Get all vendors
