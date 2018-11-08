@@ -9,12 +9,12 @@
 * [Contract Struct](ContractStruct.md)
 * [Token Signature & Verification](TokenSignature.md)
 
-## Contract API
+## Contract APIs
 * [TripioRoomNightAdmin](TripioRoomNightAdmin.md)
 * [TripioRoomNightVendor](TripioRoomNightVendor.md)
 * [TripioRoomNightCustomer](TripioRoomNightCustomer.md)
 
-## Contact information
+## Contact Us
 * [Website](http://trip.io/)
 * [Telegram](https://t.me/thetripio)
 * [Twitter](https://twitter.com/thetripio)
