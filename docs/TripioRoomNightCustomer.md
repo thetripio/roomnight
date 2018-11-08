@@ -1,6 +1,5 @@
 # Contract
 * Ropsten：[0x8A1f185EFC5c2a9a5F7A92894d74f4F6e17d42F1](https://ropsten.etherscan.io/address/0x8A1f185EFC5c2a9a5F7A92894d74f4F6e17d42F1)
-* Main：[0x605FdEBd3b51eb671723cce98EB5D7B227B04fd0](https://ropsten.etherscan.io/address/0x605FdEBd3b51eb671723cce98EB5D7B227B04fd0)
 
 # Query
 

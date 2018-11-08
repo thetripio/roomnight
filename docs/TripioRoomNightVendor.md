@@ -1,6 +1,5 @@
 # 合约地址
 * Ropsten：[0x8ce76Ec4F7D39B274a87123730870309B6F708e5](https://ropsten.etherscan.io/address/0x8ce76Ec4F7D39B274a87123730870309B6F708e5)
-* Main：[0xa11C24A774dEbcCf53Da7152964d7C7DAd960fa1](https://ropsten.etherscan.io/address/0xa11C24A774dEbcCf53Da7152964d7C7DAd960fa1)
 
 # Query
 ## Get inventories of dates

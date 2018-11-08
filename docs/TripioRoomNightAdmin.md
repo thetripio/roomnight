@@ -1,6 +1,5 @@
 # Contract
 * Ropsten：[0x0D53Ca8D45072c29fA45A3854685ff80ce95E8b2](https://ropsten.etherscan.io/address/0x0D53Ca8D45072c29fA45A3854685ff80ce95E8b2)
-* Main：[0x45A4C11105F6d0Ba19A8e848450A9fA3642c4fBa](https://ropsten.etherscan.io/address/0x45A4C11105F6d0Ba19A8e848450A9fA3642c4fBa)
 
 # Query
 ## Get Vendor ids by page
