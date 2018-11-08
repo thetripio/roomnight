@@ -143,7 +143,7 @@ contract TRNTransactions is TRNOwners {
      *      Throw unless `_rnid` is valid
      *      Throw unless `_rnid` can transfer
      * @param _rnid room night identifier
-     * @param _isRefund if `true` the `_rnid` can transfer else not
+     * @param _isRefund if `true` the `_rnid` can refund else not
      */
     function applyRefund(uint256 _rnid, bool _isRefund) 
         external
