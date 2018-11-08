@@ -3,10 +3,10 @@
 * Main：[0x45A4C11105F6d0Ba19A8e848450A9fA3642c4fBa](https://ropsten.etherscan.io/address/0x45A4C11105F6d0Ba19A8e848450A9fA3642c4fBa)
 
 # Query
-## Get all vendors
+## Get Vendor ids by page
 | getVendorIds |                     |
 |:--------------|:-------------------|
-| Description  | Get all vendor's ids |
+| Description  | Get Vendor ids by page |
 | Modifier     | NULL                |
 | Constant     | TRUE                |
 

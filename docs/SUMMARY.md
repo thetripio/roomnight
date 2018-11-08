@@ -4,15 +4,18 @@
 * [Ropsten Release](RopstenContract.md)
 * [Main Release](MainContract.md)
 
-## Overview of tokenization process
-* [Flow Chart](FlowChart.md)
-* [Contract Struct](ContractStruct.md)
-* [Token Signature & Verification](TokenSignature.md)
-
 ## Contract APIs
 * [TripioRoomNightAdmin](TripioRoomNightAdmin.md)
 * [TripioRoomNightVendor](TripioRoomNightVendor.md)
 * [TripioRoomNightCustomer](TripioRoomNightCustomer.md)
+
+## Overview of tokenization process
+* [Flow Chart](FlowChart.md)
+* [Contract Struct](ContractStruct.md)
+* [Vendor Behavior](VendorBehavior.md)
+* [Customer Behavior](CustomerBehavior.md)
+* [ERC 721 Behavior](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+* [Token Signature & Verification](TokenSignature.md)
 
 ## Contact Us
 * [Website](http://trip.io/)
