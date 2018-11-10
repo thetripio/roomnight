@@ -180,7 +180,7 @@
 
 | EVENTS  |        | 
 |:--------|:---------|
-| Transfer | (from, _to, _tokenId) |
+| Transfer | (_from, _to, _tokenId) |
 
 ##  Transfers the ownership of an room night token from one address to another address
 | transferFrom |                     |
@@ -197,7 +197,7 @@
 
 | EVENTS  |        | 
 |:--------|:---------|
-| Transfer | (from, _to, _tokenId) |
+| Transfer | (_from, _to, _tokenId) |
 
 ## Transfers the ownership of tokens from one address to another address
 | transferFromInBatch |                     |
@@ -214,7 +214,7 @@
 
 | EVENTS  |        | 
 |:--------|:---------|
-| Transfer | (from, _to, _tokenId) |
+| Transfer | (_from, _to, _tokenId) |
 
 ## Set or reaffirm the approved address for an room night token
 | approve |                     |
