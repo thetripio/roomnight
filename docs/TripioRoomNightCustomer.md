@@ -169,12 +169,12 @@
 | safeTransferFrom |                     |
 |:--------------|:-------------------|
 | Description  | Transfers the ownership of an room night token from one address to another address.|
-| Modifier     | Throws unless `msg.sender` is the current owner or an approved address for this TRN. Throws if `_tokenId` is not a valid TRN. When transfer is complete, this function checks if `_to` is a smart contract (code size > 0). If so, it calls `onERC721Received` on `_to` and throws if the return value is not `bytes4(keccak256("onERC721Received(address,uint256,bytes)"))`. |
+| Modifier     | Throws unless `msg.sender` is the current owner or an approved address for this room night token. Throws if `_tokenId` is not a valid room night token. When transfer is complete, this function checks if `_to` is a smart contract (code size > 0). If so, it calls `onERC721Received` on `_to` and throws if the return value is not `bytes4(keccak256("onERC721Received(address,uint256,bytes)"))`. |
 | Constant     | FALSE                |
 
 | INPUTS  | TYPE    | DESCRIPTION                 |
 |:---------|:-------|:----------------------------|
-| _from   | address | The current owner of the TRN |
+| _from   | address | The current owner of the room night token |
 | _to  | address | The new owner |
 | _tokenId | uint256 | The token to transfer |
 
@@ -191,7 +191,7 @@
 
 | INPUTS  | TYPE    | DESCRIPTION                 |
 |:---------|:-------|:----------------------------|
-| _from   | address | The current owner of the TRN |
+| _from   | address | The current owner of the room night token |
 | _to  | address | The new owner |
 | _tokenId | uint256 | The token to transfer |
 
@@ -208,7 +208,7 @@
 
 | INPUTS  | TYPE    | DESCRIPTION                 |
 |:---------|:-------|:----------------------------|
-| _from   | address | The current owner of the TRN |
+| _from   | address | The current owner of the room night token |
 | _to  | address | The new owner |
 | _tokenIds | uint256[] | The tokens to transfer |
 
@@ -220,7 +220,7 @@
 | approve |                     |
 |:--------------|:-------------------|
 | Description  | Set or reaffirm the approved address for an room night token |
-| Modifier     | Throws unless `msg.sender` is the current TRN owner, or an authorized |
+| Modifier     | Throws unless `msg.sender` is the current room night token owner, or an authorized |
 | Constant     | FALSE           |
 
 | INPUTS  | TYPE    | DESCRIPTION                 |
