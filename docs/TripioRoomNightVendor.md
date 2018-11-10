@@ -17,7 +17,7 @@
 
 | OUTPUTS  | TYPE      | DESCRIPTION    |
 |:--------|:----------|:--------|
-| 1       | uint16[]  | Inventories | 
+| 0       | uint16[]  | Inventories | 
 
 ## Get prices of dates
 | pricesOfDate  |                          |
@@ -35,7 +35,7 @@
 
 | OUTPUTS  | TYPE      | DESCRIPTION    |
 |:--------|:----------|:--------|
-| 1       | uint256[] |  Prices | 
+|0       | uint256[] |  Prices | 
 
 ## Get price and inventory of date
 | priceOfDate  |                          |
