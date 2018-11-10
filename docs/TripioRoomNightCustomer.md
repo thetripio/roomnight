@@ -144,10 +144,10 @@
 | 6       | bytes32  | The IPFS's address of rateplan's desc |
 | 7       | string  | Rateplan name |
 
-## Get all the room nights of the `msg.sender`(Customer)
+## Get all the room nights of the `msg.sender`(Customer or Vendor)
 | roomNightsOfOwner |                     |
 |:--------------|:-------------------|
-| Description  | Get all the room nights of the `msg.sender`(Customer) |
+| Description  | Get all the room nights of the `msg.sender`(Customer or Vendor) |
 | Modifier     | NULL |
 | Constant     | TRUE                |
 
