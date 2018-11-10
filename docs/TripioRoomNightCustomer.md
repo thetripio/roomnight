@@ -105,7 +105,7 @@
 
 | OUTPUTS  | TYPE      | DESCRIPTION               |
 |:--------|:---------|:----------------------------|
-| 0       | address | True if `_operator` is an approved operator for `_owner`, false otherwise |
+| 0       | bool | True if `_operator` is an approved operator for `_owner`, false otherwise |
 
 ##  Whether the token is in refund applications
 | isRefundApplied |                     |
