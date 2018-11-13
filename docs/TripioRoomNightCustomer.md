@@ -177,6 +177,7 @@
 | _from   | address | The current owner of the room night token |
 | _to  | address | The new owner |
 | _tokenId | uint256 | The token to transfer |
+|_data | bytes | Additional data with no specified format, sent in call to `_to`|
 
 | EVENTS  |        | 
 |:--------|:---------|
