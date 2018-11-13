@@ -276,7 +276,6 @@
 
 | INPUTS  | TYPE    | DESCRIPTION                 |
 |:---------|:-------|:----------------------------|
-| _vendorId | uint256 | The vendor Id |
 | _rnid | uint256 | Room night token id |
 | _isRefund | uint256 | if `true` the `_rnid` can refund else not |
 
