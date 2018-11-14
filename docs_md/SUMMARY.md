@@ -4,6 +4,10 @@
 * [Ropsten Release](RopstenContract.md)
 * [Main Release](MainContract.md)
 
+## Test resource
+* [ETH On Ropsten](https://faucet.metamask.io/)
+* [TRIO On Ropsten](https://ropsten.etherscan.io/address/0x13349e468634edc77879197c4e5a9784db534c6e#writeContract)
+
 ## Contract APIs
 * [TripioRoomNightAdmin](TripioRoomNightAdmin.md)
     * [getVendorIds](TripioRoomNightAdmin.md#get-vendor-ids-by-page)
