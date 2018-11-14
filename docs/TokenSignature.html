@@ -1,0 +1,481 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Token Signature & Verification · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Contract</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="RopstenContract.html">
+            
+                <a href="RopstenContract.html">
+            
+                    
+                    Ropsten Release
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="MainContract.html">
+            
+                <a href="MainContract.html">
+            
+                    
+                    Main Release
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Contract APIs</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="TripioRoomNightAdmin.html">
+            
+                <a href="TripioRoomNightAdmin.html">
+            
+                    
+                    TripioRoomNightAdmin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="TripioRoomNightVendor.html">
+            
+                <a href="TripioRoomNightVendor.html">
+            
+                    
+                    TripioRoomNightVendor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="TripioRoomNightCustomer.html">
+            
+                <a href="TripioRoomNightCustomer.html">
+            
+                    
+                    TripioRoomNightCustomer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Overview of tokenization process</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="FlowChart.html">
+            
+                <a href="FlowChart.html">
+            
+                    
+                    Flow Chart
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="ContractStruct.html">
+            
+                <a href="ContractStruct.html">
+            
+                    
+                    Contract Struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="VendorBehavior.html">
+            
+                <a href="VendorBehavior.html">
+            
+                    
+                    Vendor Behavior
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="CustomerBehavior.html">
+            
+                <a href="CustomerBehavior.html">
+            
+                    
+                    Customer Behavior
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" >
+            
+                <a target="_blank" href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md">
+            
+                    
+                    ERC 721 Behavior
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.6" data-path="TokenSignature.html">
+            
+                <a href="TokenSignature.html">
+            
+                    
+                    Token Signature & Verification
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Contact Us</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <a target="_blank" href="http://trip.io/">
+            
+                    
+                    Website
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" >
+            
+                <a target="_blank" href="https://t.me/thetripio">
+            
+                    
+                    Telegram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" >
+            
+                <a target="_blank" href="https://twitter.com/thetripio">
+            
+                    
+                    Twitter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" >
+            
+                <a target="_blank" href="http://d.trip.io/wp/Tripio_Whitepaper_EN.pdf">
+            
+                    
+                    Whitepaper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" >
+            
+                <a target="_blank" href="https://open.kakao.com/o/gLHXN9Y">
+            
+                    
+                    Kakao
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" >
+            
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100028583748545">
+            
+                    
+                    Facebook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Token Signature & Verification</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="the-signature-and-verification-of-token">The signature and verification of Token</h1>
+<p>The token can be used in two ways:</p>
+<ul>
+<li>You can transfer the Token to the vendor directly, but this will consume a certain amount of Gas.</li>
+<li>The token itself has the nature of natural failure, so we can use the simple signature and verification method to complete the useage of the token.
+The owner of the token sign the token with private key and show it to the vendor. The vendor can recover the owner address of the token from the signature, so if the owner of token we got from the blockchain is equal to the owner we recovered from the signature, the token is verified.</li>
+</ul>
+<h2 id="signature-of-token">Signature of Token</h2>
+<ul>
+<li>You can get the token by ordering on blockchain or get the token from other people.</li>
+<li>Connect multiple tokens to get a string if you got more than one </li>
+<li>Hash the string by <a href="https://en.wikipedia.org/wiki/SHA-3" target="_blank">keccak256</a> and you will get the Token Hash.</li>
+<li>Sign the Token Hash by <a href="https://en.bitcoin.it/wiki/Secp256k1" target="_blank">secp256k1</a> with your private key and you will get the signature.</li>
+<li>Connect the signature with the original tokens string and get the new string.</li>
+<li>Finally, encode the string with a QR code of 15% fault tolerance.</li>
+</ul>
+<p><img src="https://metaimg.baichanghui.com/METADATA/e700e06c-925e-4041-9c3c-a45d7d6e6654" alt=""></p>
+<h2 id="verification-of-token">Verification of Token</h2>
+<ul>
+<li>The vendor get the QR code from the customer.</li>
+<li>Decode the QR code and get the signature data of customer Toknes.</li>
+<li>Split the signature data: 32 bytes + 32 bytes + 1 byte + x byte. Let we name them as: r,s,v,Token Hash</li>
+<li>Recover the r,s,v data by <a href="https://en.bitcoin.it/wiki/Secp256k1" target="_blank">secp256k1</a> and get the public key of the tokens owner.</li>
+<li>If the public key begin with hex(0x04), remove the first byte hex(0x04).</li>
+<li>Hash the public key by <a href="https://en.wikipedia.org/wiki/SHA-3" target="_blank">keccak256</a> and get the last 20 bytes as the owner address of tokens.</li>
+<li>Compare decoded owner of tokens with the owner got from the blockchain. </li>
+</ul>
+<p><img src="https://metaimg.baichanghui.com/METADATA/feb2439f-2582-41f0-8c0d-369051579762" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Token Signature & Verification","level":"3.6","depth":1,"next":{"title":"Website","level":"4.1","depth":1,"url":"http://trip.io/","ref":"http://trip.io/","articles":[]},"previous":{"title":"ERC 721 Behavior","level":"3.5","depth":1,"url":"https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md","ref":"https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"TokenSignature.md","mtime":"2018-11-07T10:02:29.136Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-14T02:23:24.658Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
