@@ -10,4 +10,4 @@ The room night tokenization is a system that uses the Ethereum ERC721 protocol t
 * Facebook: https://www.facebook.com/profile.php?id=100028583748545
 
 # Documents
-* https://thetripio.github.io
+* https://thetripio.github.io/roomnight/
