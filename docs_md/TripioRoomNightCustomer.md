@@ -10,9 +10,6 @@
 | Modifier     | NULL                |
 | Constant     | TRUE                |
 
-| INPUTS  | TYPE    | DESCRIPTION                 |
-|:---------|:-------|:----------------------------|
-
 | OUTPUTS  | TYPE      | DESCRIPTION               |
 |:--------|:---------|:----------------------------|
 | 0       | string | The name of current room night token |
@@ -23,9 +20,6 @@
 | Description  | The symbol of current room night token |
 | Modifier     | NULL                |
 | Constant     | TRUE                |
-
-| INPUTS  | TYPE    | DESCRIPTION                 |
-|:---------|:-------|:----------------------------|
 
 | OUTPUTS  | TYPE      | DESCRIPTION               |
 |:--------|:---------|:----------------------------|

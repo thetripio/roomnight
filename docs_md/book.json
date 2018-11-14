@@ -10,5 +10,8 @@
             "twitter": false,
             "all": false
         }
+    },
+    "styles": {
+        "website": "styles/website.css"
     }
 }
