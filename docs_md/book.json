@@ -1,0 +1,14 @@
+{
+    "title": "Room Night Tokenization",
+    "plugins": ["toggle-chapters"],
+    "author": "Kirn",
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "all": false
+        }
+    }
+}

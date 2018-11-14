@@ -165,7 +165,7 @@
 
 # Update
 
-## Transfers the ownership of an room night token from one address to another address
+## Transfers the ownership of an room night token from one address to another address with callback
 | safeTransferFrom |                     |
 |:--------------|:-------------------|
 | Description  | Transfers the ownership of an room night token from one address to another address.|
