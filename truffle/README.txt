@@ -1,13 +1,14 @@
 # 构建测试环境
 truffle develop
 
-# 编译
+# 编译（Compile）
 truffle compile --all
 
-# 部署
+# 部署（Deploy）
 truffle migrate --network dev --reset
 
 # Ropsten Release
+
 TRIO: 0xF142f1c7BaDc95FB438302D7Cf0a5Db426f8f779
 LinkedListLib:  0xc91feF2aaAe890E218c1aFb8D13F5882fe64D8A4
 TripioRoomNightData:0x7245478640fa8c090df6a34dF5C1525A9C1Ef3E0
